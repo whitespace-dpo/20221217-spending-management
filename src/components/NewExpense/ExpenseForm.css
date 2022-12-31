@@ -1,0 +1,34 @@
+.new-expense__controls{
+    padding: 2% 0;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+}
+.new-expense__actions{
+    text-align: right;
+}
+form{
+    padding: 2% 10%;
+}
+label{
+    color: white;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 2% 0;
+}
+input{
+    height: 30px;
+    width: 100%;
+}
+button{
+    padding: 1.5% 2%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: #227C70;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #185a51;
+}

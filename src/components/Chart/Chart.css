@@ -1,0 +1,8 @@
+.chart{
+    padding: 2%;
+    background-color: rgb(225, 193, 255);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border-radius: 10px;
+    align-items:center ;
+}

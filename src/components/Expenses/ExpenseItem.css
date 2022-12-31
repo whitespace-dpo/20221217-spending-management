@@ -1,0 +1,23 @@
+.expense-item{
+    display: grid;
+    grid-template-columns: 20% 80% ;
+    align-items: center;
+    background-color: #1C315E;
+    color: white;
+    margin: 2% 0;
+    padding: 2% 3%;
+    border-radius: 10px;
+}
+.expense-item__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expense-item__price{
+    background-color: #227C70;
+    border-radius: 10px;
+    border: solid 2px white;
+    padding: 2% 3%;
+    font-size: 1.3rem;
+    font-weight: 700;
+}

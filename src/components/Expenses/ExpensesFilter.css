@@ -1,0 +1,14 @@
+.expenses-filter{
+    padding: 2% 5%;
+}
+.expenses-filter label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.expenses-filter__control{
+    display: flex;
+    justify-content: space-between;
+}
+.expenses-filter__control option{
+    padding: 0;
+}
