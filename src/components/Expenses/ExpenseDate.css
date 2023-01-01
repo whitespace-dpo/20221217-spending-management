@@ -1,9 +1,9 @@
 .expense-date{
+    background-color: black;
     padding: 5% 1%;
     margin: 1% 10%;
     border-radius: 10px;
     border: solid 2px white;
-    background-color: black;
     text-align: center;
 }
 .expense-date__month{

@@ -28,10 +28,10 @@ input {
   width: 100%;
 }
 button {
-    /* Color */
+  /* Color */
   color: white;
   background-color: #227c70;
-  
+
   /* Display & box-model */
   padding: 1.5% 2%;
   border-radius: 5px;
