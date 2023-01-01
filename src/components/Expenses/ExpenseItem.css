@@ -1,12 +1,18 @@
 .expense-item{
-    display: grid;
-    grid-template-columns: 20% 80% ;
-    align-items: center;
+    /* Color */
     background-color: #1C315E;
     color: white;
+
+    /* Display & box-model */
+    display: grid;
+    grid-template-columns: 20% 80%;
+
     margin: 2% 0;
     padding: 2% 3%;
     border-radius: 10px;
+
+    /* Other */
+    align-items: center;
 }
 .expense-item__description{
     display: flex;
@@ -14,10 +20,15 @@
     align-items: center;
 }
 .expense-item__price{
+    /* Color */
     background-color: #227C70;
-    border-radius: 10px;
     border: solid 2px white;
+
+    /* Display & Box-model */
+    border-radius: 10px;
     padding: 2% 3%;
+
+    /* Text */
     font-size: 1.3rem;
     font-weight: 700;
 }

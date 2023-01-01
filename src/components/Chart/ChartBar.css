@@ -3,35 +3,48 @@
   padding: 10% 1%;
 }
 .chart-bar__inner {
-  align-items: center;
+  /* color */
+  background-color: rgb(205, 151, 255);
+
+  /* Display & box-model */
   height: 100px;
   width: 40%;
-  background-color: rgb(205, 151, 255);
   margin: 0 auto;
-  position: relative;
   border-radius: 5px;
+
+  /* Position */
+  position: relative;
+  align-items: center;
 }
 .chart-bar__fill {
-  position: absolute;
+  /* color */
   background-color: rgb(205, 151, 255);
-  bottom: 0px;
+
+  /* Display & box-model */
   width: 100%;
   height: 100%;
   border-radius: 5px;
-}
-.chart-bar__col {
+
+  /* Position */
   position: absolute;
   bottom: 0px;
+}
+.chart-bar__col {
+  /* Color */
   background-color: blueviolet;
+
+  /* Display & box-model */
   width: 100%;
   height: 100%;
-  border-radius: 5px; 
+  border-radius: 5px;
+
+  /* Position */
+  position: absolute;
+  bottom: 0px;
+  
+  /* Animation */
   animation: increase-column 2s;
 }
-/* .chart-bar__col[flag='1'] {
-  animation-name: increase-column;
-  animation-duration: 2s;
-} */
 .chart-bar__label {
   text-align: center;
 }

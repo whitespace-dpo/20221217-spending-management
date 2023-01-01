@@ -1,34 +1,45 @@
-.new-expense__controls{
-    padding: 2% 0;
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-gap: 10%;
+.new-expense__controls {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10%;
+
+  padding: 2% 0;
 }
-.new-expense__actions{
-    text-align: right;
+.new-expense__actions {
+  text-align: right;
 }
-form{
-    padding: 2% 10%;
+form {
+  padding: 2% 10%;
 }
-label{
-    color: white;
-    display: block;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 2% 0;
+label {
+  /* Color */
+  color: white;
+
+  /* Display & box-model */
+  display: block;
+  padding: 2% 0;
+
+  /* Text */
+  font-size: 1rem;
+  font-weight: 500;
 }
-input{
-    height: 30px;
-    width: 100%;
+input {
+  height: 30px;
+  width: 100%;
 }
-button{
-    padding: 1.5% 2%;
-    font-size: 1rem;
-    font-weight: 500;
-    color: white;
-    background-color: #227C70;
-    border-radius: 5px;
+button {
+    /* Color */
+  color: white;
+  background-color: #227c70;
+  
+  /* Display & box-model */
+  padding: 1.5% 2%;
+  border-radius: 5px;
+
+  /* Text */
+  font-size: 1rem;
+  font-weight: 500;
 }
-button:hover{
-    background-color: #185a51;
+button:hover {
+  background-color: #185a51;
 }
